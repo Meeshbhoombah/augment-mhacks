@@ -6,6 +6,7 @@ target 'LyftAR' do
   use_frameworks!
 
   # Pods for LyftAR
+  pod 'LyftSDK'  
 
   target 'LyftARTests' do
     inherit! :search_paths
