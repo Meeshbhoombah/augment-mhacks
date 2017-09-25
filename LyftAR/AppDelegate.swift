@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import Pods_LyftAR
+import LyftSDK
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,7 +17,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        LyftConfiguration.developer = (token: "...", clientId: "...")
+        LyftConfiguration.developer = (token: "Wl/aXTgLcq/DqbtjHmDMB1Whv78526MwI4XtTPx6RnNBmxJy140bDENY+5Wc7NbgVdT4v25AIGc8CoFZXcRZtKvBs7SmiNdFsvb0KXvazWGh6T5u6Tregxw=",
+                                       clientId: "nuyJMwzx54nfu0lDhLsX7isFBxyXAz6k")
+        
+            //var locManager = CLLocationManager()
+            //locManager.requestWhenInUseAuthorization()
         return true
     }
 

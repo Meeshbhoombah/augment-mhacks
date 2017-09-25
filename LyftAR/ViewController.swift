@@ -9,10 +9,23 @@
 import UIKit
 import SpriteKit
 import ARKit
+import LyftSDK
+import ARCL
+import CoreLocation
 
 class ViewController: UIViewController, ARSKViewDelegate {
     
+    let lyftbutton = LyftButton()
+    
+    var sceneLocationView = SceneLocationView()
+    
     @IBOutlet var sceneView: ARSKView!
+    
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        
+        sceneLocationView.frame = view.bounds
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -28,6 +41,15 @@ class ViewController: UIViewController, ARSKViewDelegate {
         if let scene = SKScene(fileNamed: "Scene") {
             sceneView.presentScene(scene)
         }
+        
+        sceneLocationView.run()
+        view.addSubview(sceneLocationView)
+        
+        let coordinate = CLLocationCoordinate2D(latitude: 51.504571, longitude: -0.019717)
+        let location = CLLocation(coordinate: coordinate, altitude: 300)
+        let image = UIImage(named: "pin")!
+        
+        let annotationNode = LocationAnnotationNode(location: location, image: image)
     }
     
     override func viewWillAppear(_ animated: Bool) {

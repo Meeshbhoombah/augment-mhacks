@@ -1,0 +1,9 @@
+# General Mac files
+.DS_Store
+
+# iOS Specefic
+**/Pods
+
+# Vim
+*.swp
+

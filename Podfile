@@ -7,6 +7,7 @@ target 'LyftAR' do
 
   # Pods for LyftAR
   pod 'LyftSDK'  
+  pod 'ARCL'
 
   target 'LyftARTests' do
     inherit! :search_paths
