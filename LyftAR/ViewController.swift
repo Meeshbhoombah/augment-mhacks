@@ -45,7 +45,7 @@ class ViewController: UIViewController, ARSKViewDelegate {
         sceneLocationView.run()
         view.addSubview(sceneLocationView)
         
-        let coordinate = CLLocationCoordinate2D(latitude: 51.504571, longitude: -0.019717)
+        let coordinate = CLLocationCoordinate2D(latitude: 51.5033640, longitude: -0.1276250)
         let location = CLLocation(coordinate: coordinate, altitude: 300)
         let image = UIImage(named: "pin")!
         
