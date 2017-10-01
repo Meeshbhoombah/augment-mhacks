@@ -14,6 +14,7 @@
 		1C3EBBEF1F7B2323003753FE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3EBBED1F7B2323003753FE /* Main.storyboard */; };
 		1C3EBBF11F7B2323003753FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C3EBBF01F7B2323003753FE /* Assets.xcassets */; };
 		1C3EBBF41F7B2323003753FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C3EBBF21F7B2323003753FE /* LaunchScreen.storyboard */; };
+		798D1F884799980578D421F5 /* Pods_LyftAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2BBC2032D788180EF910EB1 /* Pods_LyftAR.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,9 @@
 		1C3EBBF01F7B2323003753FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C3EBBF31F7B2323003753FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C3EBBF51F7B2323003753FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE822598AB04F5862110A155 /* Pods-LyftAR.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyftAR.release.xcconfig"; path = "Pods/Target Support Files/Pods-LyftAR/Pods-LyftAR.release.xcconfig"; sourceTree = "<group>"; };
+		BC7194FE1DC79134FE9E9926 /* Pods-LyftAR.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LyftAR.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LyftAR/Pods-LyftAR.debug.xcconfig"; sourceTree = "<group>"; };
+		C2BBC2032D788180EF910EB1 /* Pods_LyftAR.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LyftAR.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				798D1F884799980578D421F5 /* Pods_LyftAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +49,8 @@
 			children = (
 				1C3EBBE41F7B2323003753FE /* LyftAR */,
 				1C3EBBE31F7B2323003753FE /* Products */,
+				AE182F5214E6B089D676BFF2 /* Pods */,
+				25FD254E92BA0DF2F5D18BDD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,6 +77,23 @@
 			path = LyftAR;
 			sourceTree = "<group>";
 		};
+		25FD254E92BA0DF2F5D18BDD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C2BBC2032D788180EF910EB1 /* Pods_LyftAR.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE182F5214E6B089D676BFF2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BC7194FE1DC79134FE9E9926 /* Pods-LyftAR.debug.xcconfig */,
+				AE822598AB04F5862110A155 /* Pods-LyftAR.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +101,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C3EBBF81F7B2323003753FE /* Build configuration list for PBXNativeTarget "LyftAR" */;
 			buildPhases = (
+				E602E5808FC6214A0FCD77A6 /* [CP] Check Pods Manifest.lock */,
 				1C3EBBDE1F7B2323003753FE /* Sources */,
 				1C3EBBDF1F7B2323003753FE /* Frameworks */,
 				1C3EBBE01F7B2323003753FE /* Resources */,
+				4AAD41CEE17979E3C4BEB6EE /* [CP] Embed Pods Frameworks */,
+				1539F874A8289891F18457D7 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +164,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1539F874A8289891F18457D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyftAR/Pods-LyftAR-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4AAD41CEE17979E3C4BEB6EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LyftAR/Pods-LyftAR-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E602E5808FC6214A0FCD77A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		1C3EBBDE1F7B2323003753FE /* Sources */ = {
@@ -280,6 +355,7 @@
 		};
 		1C3EBBF91F7B2323003753FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC7194FE1DC79134FE9E9926 /* Pods-LyftAR.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +371,7 @@
 		};
 		1C3EBBFA1F7B2323003753FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE822598AB04F5862110A155 /* Pods-LyftAR.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
