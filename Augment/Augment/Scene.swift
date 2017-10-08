@@ -10,7 +10,6 @@ import SpriteKit
 import ARKit
 
 class Scene: SKScene {
-    
     override func didMove(to view: SKView) {
         // Setup your scene here
     }

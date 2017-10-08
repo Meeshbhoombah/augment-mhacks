@@ -7,28 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C05FCEA1F89452E003BBA8C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05FCE91F89452E003BBA8C /* API.swift */; };
 		1C253E821F8927AA00CACA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C253E811F8927AA00CACA1A /* AppDelegate.swift */; };
 		1C253E841F8927AA00CACA1A /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C253E831F8927AA00CACA1A /* Scene.sks */; };
 		1C253E861F8927AA00CACA1A /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C253E851F8927AA00CACA1A /* Scene.swift */; };
-		1C253E881F8927AA00CACA1A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C253E871F8927AA00CACA1A /* ViewController.swift */; };
 		1C253E8B1F8927AA00CACA1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C253E891F8927AA00CACA1A /* Main.storyboard */; };
 		1C253E8D1F8927AA00CACA1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C253E8C1F8927AA00CACA1A /* Assets.xcassets */; };
 		1C253E901F8927AA00CACA1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C253E8E1F8927AA00CACA1A /* LaunchScreen.storyboard */; };
+		1CF935851F89813000D31006 /* AuthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1CF935841F89813000D31006 /* AuthViewController.swift */; };
 		54C63D33406A7C6C3B8E3F2D /* Pods_Augment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1694D67D6AF5CF266549D889 /* Pods_Augment.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1694D67D6AF5CF266549D889 /* Pods_Augment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Augment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1835FB8E4C01EA286F688C81 /* Pods-Augment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Augment/Pods-Augment.release.xcconfig"; sourceTree = "<group>"; };
+		1C05FCE91F89452E003BBA8C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		1C253E7E1F8927AA00CACA1A /* Augment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Augment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C253E811F8927AA00CACA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C253E831F8927AA00CACA1A /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
 		1C253E851F8927AA00CACA1A /* Scene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scene.swift; sourceTree = "<group>"; };
-		1C253E871F8927AA00CACA1A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1C253E8A1F8927AA00CACA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1C253E8C1F8927AA00CACA1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C253E8F1F8927AA00CACA1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1C253E911F8927AA00CACA1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1CF935841F89813000D31006 /* AuthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewController.swift; sourceTree = "<group>"; };
 		87E022FECBA6AFB9CA490F7D /* Pods-Augment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augment.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Augment/Pods-Augment.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -65,16 +67,25 @@
 		1C253E801F8927AA00CACA1A /* Augment */ = {
 			isa = PBXGroup;
 			children = (
-				1C253E811F8927AA00CACA1A /* AppDelegate.swift */,
+				1C253E8E1F8927AA00CACA1A /* LaunchScreen.storyboard */,
+				1C253E891F8927AA00CACA1A /* Main.storyboard */,
+				1CF935831F897DA600D31006 /* Helpers */,
 				1C253E831F8927AA00CACA1A /* Scene.sks */,
 				1C253E851F8927AA00CACA1A /* Scene.swift */,
-				1C253E871F8927AA00CACA1A /* ViewController.swift */,
-				1C253E891F8927AA00CACA1A /* Main.storyboard */,
+				1C253E811F8927AA00CACA1A /* AppDelegate.swift */,
+				1CF935841F89813000D31006 /* AuthViewController.swift */,
 				1C253E8C1F8927AA00CACA1A /* Assets.xcassets */,
-				1C253E8E1F8927AA00CACA1A /* LaunchScreen.storyboard */,
 				1C253E911F8927AA00CACA1A /* Info.plist */,
 			);
 			path = Augment;
+			sourceTree = "<group>";
+		};
+		1CF935831F897DA600D31006 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				1C05FCE91F89452E003BBA8C /* API.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		30FDB1A10055521574B6E3C6 /* Frameworks */ = {
@@ -218,8 +229,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1C253E881F8927AA00CACA1A /* ViewController.swift in Sources */,
 				1C253E861F8927AA00CACA1A /* Scene.swift in Sources */,
+				1C05FCEA1F89452E003BBA8C /* API.swift in Sources */,
+				1CF935851F89813000D31006 /* AuthViewController.swift in Sources */,
 				1C253E821F8927AA00CACA1A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

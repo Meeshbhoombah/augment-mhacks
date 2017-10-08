@@ -1,25 +1,26 @@
 PODS:
   - Alamofire (4.5.1)
-  - LyftSDK (1.0.6):
-    - LyftSDK/Core (= 1.0.6)
-  - LyftSDK/Core (1.0.6)
-  - Realm (2.10.1):
-    - Realm/Headers (= 2.10.1)
-  - Realm/Headers (2.10.1)
-  - RealmSwift (2.10.1):
-    - Realm (= 2.10.1)
+  - OAuthSwift (1.2.0)
+  - Realm (2.10.2):
+    - Realm/Headers (= 2.10.2)
+  - Realm/Headers (2.10.2)
+  - RealmSwift (2.10.2):
+    - Realm (= 2.10.2)
+  - SwiftyJSON (3.1.4)
 
 DEPENDENCIES:
   - Alamofire (~> 4.5)
-  - LyftSDK
+  - OAuthSwift (~> 1.2.0)
   - RealmSwift
+  - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
-  LyftSDK: 17eb5abdb12f72203b68a1eac982823bfadda743
-  Realm: fc7a317a5c2c9ba91f5f235ede4e2ea76e9eba0c
-  RealmSwift: 505ed6c15942a2e76f5cfa78a8667cfa997ee75b
+  OAuthSwift: 7fd6855b8e4d58eb5a30d156ea9bed7a8aecd1ca
+  Realm: 0ef72b837fb67e9f4b098bac771ddd72c7fdbb69
+  RealmSwift: 07a9ae0505091eda6b2ee7c190c3786d6e90a7b0
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
 
-PODFILE CHECKSUM: 5933c47a1bd9b34b1d4d43eacac7f6475639cc8c
+PODFILE CHECKSUM: 4a8e37e320baef1e32c1e6b025520a020d56c766
 
 COCOAPODS: 1.2.1
