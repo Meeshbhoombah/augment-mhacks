@@ -5,9 +5,13 @@
 ## Mac
 .DS_Store
 
+## Proj Specefic
+Augment/Augment/Helpers/API.swift
+AUgment/Augment/Helprs/Keys.swift
+
 ## Build generated
-build/
-DerivedData/
+Augment/build/
+Augment/DerivedData/
 
 ## Various settings
 *.pbxuser
@@ -30,10 +34,6 @@ xcuserdata/
 *.ipa
 *.dSYM.zip
 *.dSYM
-
-## Playgrounds
-timeline.xctimeline
-playground.xcworkspace
 
 # Swift Package Manager
 #
