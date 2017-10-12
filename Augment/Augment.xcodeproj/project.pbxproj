@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1C05FCEA1F89452E003BBA8C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C05FCE91F89452E003BBA8C /* API.swift */; };
+		1C1CF9071F8E92E400097057 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1CF9061F8E92E400097057 /* Models.swift */; };
 		1C253E821F8927AA00CACA1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C253E811F8927AA00CACA1A /* AppDelegate.swift */; };
 		1C253E841F8927AA00CACA1A /* Scene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 1C253E831F8927AA00CACA1A /* Scene.sks */; };
 		1C253E861F8927AA00CACA1A /* Scene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C253E851F8927AA00CACA1A /* Scene.swift */; };
@@ -22,6 +23,7 @@
 		1694D67D6AF5CF266549D889 /* Pods_Augment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Augment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1835FB8E4C01EA286F688C81 /* Pods-Augment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Augment.release.xcconfig"; path = "Pods/Target Support Files/Pods-Augment/Pods-Augment.release.xcconfig"; sourceTree = "<group>"; };
 		1C05FCE91F89452E003BBA8C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		1C1CF9061F8E92E400097057 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		1C253E7E1F8927AA00CACA1A /* Augment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Augment.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C253E811F8927AA00CACA1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1C253E831F8927AA00CACA1A /* Scene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Scene.sks; sourceTree = "<group>"; };
@@ -84,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				1C05FCE91F89452E003BBA8C /* API.swift */,
+				1C1CF9061F8E92E400097057 /* Models.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -233,6 +236,7 @@
 				1C05FCEA1F89452E003BBA8C /* API.swift in Sources */,
 				1CF935851F89813000D31006 /* AuthViewController.swift in Sources */,
 				1C253E821F8927AA00CACA1A /* AppDelegate.swift in Sources */,
+				1C1CF9071F8E92E400097057 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
